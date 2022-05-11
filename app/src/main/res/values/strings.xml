@@ -7,4 +7,5 @@
     <string name="smoking_table">Smoking table</string>
     <string name="non_smoking_table">Non-smoking table</string>
     <string name="reset">Reset</string>
+    <string name="submit_reservation">Submit reservation</string>
 </resources>
