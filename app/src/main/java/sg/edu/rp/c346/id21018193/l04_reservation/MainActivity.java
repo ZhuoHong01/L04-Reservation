@@ -3,6 +3,8 @@ package sg.edu.rp.c346.id21018193.l04_reservation;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -19,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
     EditText etName;
     EditText etPhone;
     EditText etPax;
+    Button submit;
+    Button reset;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,5 +38,22 @@ public class MainActivity extends AppCompatActivity {
         etName = findViewById(R.id.etName);
         etPhone = findViewById(R.id.etPhone);
         etPax = findViewById(R.id.etPax);
+        submit = findViewById(R.id.submit_button);
+        reset = findViewById(R.id.reset_button);
+
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+        reset.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
     }
 }

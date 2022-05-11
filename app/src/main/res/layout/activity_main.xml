@@ -139,7 +139,7 @@
                     android:text="@string/submit_reservation" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/reset_button"
                     style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
